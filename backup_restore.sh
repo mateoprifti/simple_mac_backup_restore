@@ -15,6 +15,7 @@ backup() {
     "$HOME/.ssh"
     "$HOME/.ssh/config"  # Include the SSH aliases file
     "$HOME/.ssh/id_rsa"  # Include the SSH private key
+    "$HOME/Library/Application Support/Sublime Text 3/Packages/User" # Include Sublime Text config
     "$HOME/Library/Application Support/Sequel Pro/Data/Preferences/sequelpro.plist" # Include Sequel Pro passwords
   )
 
